@@ -22,20 +22,30 @@
 
 ### To apply Meta-DM
 
-`python generate.py`
+```
+python generate.py
+```
 
 ### 1-shot Train
 
-`python train.py`
+```
+python train.py
+```
 
 ### 1-shot Test
 
-`python test.py` 
+```
+python test.py
+``` 
 
 ### 5-shot Train
 
-`python train.py --shot 5 --train-way 20 --save-path ./save/proto-5`
+```
+python train.py --shot 5 --train-way 20 --save-path ./save/proto-5
+```
 
 ### 5-shot Test
 
-`python test.py --load ./save/proto-5/max-acc.pth --shot 5`
+```
+python test.py --load ./save/proto-5/max-acc.pth --shot 5
+```
