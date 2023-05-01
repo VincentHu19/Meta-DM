@@ -90,9 +90,9 @@ def update_splits(setname):
     os.remove("output.csv")
 
 
-# generate_good('train')
-# generate_good('test')
-# generate_good('val')
+generate_good('train')
+generate_good('test')
+generate_good('val')
 
 generate_bad('train')
 generate_bad('test')
