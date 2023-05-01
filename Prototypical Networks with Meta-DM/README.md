@@ -1,21 +1,16 @@
-# Prototypical Network
-
-A re-implementation of [Prototypical Network](https://arxiv.org/abs/1703.05175).
-
-With ConvNet-4 backbone on miniImageNet.
-
-***For deep backbones (ResNet), see [Meta-Baseline](https://github.com/cyvius96/few-shot-meta-baseline).***
+# Prototypical Networks with Meta-DM
 
 ### Results
 
-1-shot: 49.1% (49.4% in the paper)
+1-shot: 59.3% (49.4% without Meta-DM)
 
-5-shot: 66.9% (68.2% in the paper)
+5-shot: 72.3% (68.2% without Meta-DM)
 
 ## Environment
 
-* python 3
-* pytorch 0.4.0
+* python 3.7
+* pytorch 1.9
+* paddlepaddle 2.3
 
 ## Instructions
 
@@ -24,6 +19,10 @@ With ConvNet-4 backbone on miniImageNet.
 2. Make a folder `materials/images` and put those images into it.
 
 `--gpu` to specify device for program.
+
+### To apply Meta-DM
+
+`python generate.py`
 
 ### 1-shot Train
 
