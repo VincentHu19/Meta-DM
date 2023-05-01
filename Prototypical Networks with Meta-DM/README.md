@@ -38,4 +38,4 @@
 
 ### 5-shot Test
 
-`python test.py --load ./save/proto-5/max-acc.pth --shot 5`
+```python test.py --load ./save/proto-5/max-acc.pth --shot 5```
