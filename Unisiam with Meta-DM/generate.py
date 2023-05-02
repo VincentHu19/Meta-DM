@@ -7,7 +7,7 @@ import csv
 import pandas as pd
 import random
 
-load the pipeline
+# load the pipeline
 pipe = StableDiffusionImg2ImgPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", safety_checker=None)
 
 ROOT_PATH = './data/mini-imagenet/'
