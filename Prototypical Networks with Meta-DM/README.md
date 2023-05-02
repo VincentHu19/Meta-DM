@@ -12,7 +12,7 @@
 * pytorch 1.7
 * paddlepaddle 2.3
 
-## Instructions
+## Data Preparation
 
 1. Download the images: https://drive.google.com/open?id=0B3Irx3uQNoBMQ1FlNXJsZUdYWEE
 
