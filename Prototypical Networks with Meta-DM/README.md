@@ -9,7 +9,7 @@
 ## Environment
 
 * python 3.7
-* pytorch 1.9
+* pytorch 1.7
 * paddlepaddle 2.3
 
 ## Instructions
