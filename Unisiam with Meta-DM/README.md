@@ -18,11 +18,19 @@ We use 2 $\times$ A100 for training on mini-ImageNet and 4 $\times$ A100 for tra
 
 ### Meta-DM
 To apply Meta-DM on mini-ImageNet: 
-```python generate_mini.py```
+
+
+```
+python generate_mini.py
+```
 
 
 We only use Meta-DM in meta-testing on tiered-ImageNet. To apply Meta-DM on tiered-ImageNet:
-```python generate_tiered.py```
+
+
+```
+python generate_tiered.py
+```
 
 ## Unsupervised Training
 
