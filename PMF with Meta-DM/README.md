@@ -69,4 +69,4 @@ python test_meta_dataset.py --data-path /path/to/meta_dataset/ --dataset meta_da
 To meta-test without fine-tuning, just replace `--deploy finetune` with `--deploy vanilla`.
 
 
-For more details, please see the offical page of [P>M>F](https://github.com/hushell/pmf_cvpr22). 
+For more details, please see the offical implementation of [P>M>F](https://github.com/hushell/pmf_cvpr22). 
