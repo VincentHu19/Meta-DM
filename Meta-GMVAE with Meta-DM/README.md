@@ -1,4 +1,4 @@
-# Meta-GMVAE: Mixture of Gaussian VAE for Unsupervised Meta-Learning
+# Meta-GMVAE with Meta-DM
 
 
 ## Environment
@@ -7,22 +7,20 @@
 * tqdm
 
 ## Data
-Please follow our [instruction on Prototypical Networks with Meta-DM] to download miniImageNet and apply Meta-DM. 
-```
-cd ../
-```
+Please follow our [instruction on Prototypical Networks with Meta-DM](https://github.com/VincentHu19/Meta-DM/tree/main/Prototypical%20Networks%20with%20Meta-DM#instructions) to download miniImageNet and apply Meta-DM. Then copy `materials` to current dir. 
 
-## Experiment
-To reproduce **Mini-ImageNet 5-way experiment** for Meta-GMVAE, run the following code:
-```bash
-cd mimgnet
-python main.py --data-dir DATA DIRECTORY (e.g. /home/dongbok/data/mimgnet/) --save-dir SAVE DIRECTORY (e.g. /home/dongbok/mimgnet-5way-experiment)
-```
 
-(Optional) To reproduce SimCLR features for Mini-ImageNet, run the following code:
+## Experiments
+To reproduce SimCLR features for miniImageNet 
 ```bash
 cd simclr
-python main.py --data-dir DATA DIRECTORY (e.g. /home/dongbok/data/imgnet/) --save-dir SAVE DIRECTORY (e.g. /home/dongbok/simclr-experiment) --feature-save-dir FEATURE SAVE DIRECTORY (e.g. /home/dongbok/data/mimgnet)
+python main.py --data-dir ../materials --save-dir your_simclr_experiment --feature-save-dir ../miniImageNet/data
+```
+
+To train 5-way 1/5/20/50 shot on miniImageNet
+```bash
+cd miniImageNet
+python main.py --data-dir ./data --save-dir miniImageNet-5way-experiment
 ```
 
 
