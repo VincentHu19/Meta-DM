@@ -17,7 +17,7 @@ cd simclr
 python main.py --data-dir ../materials --save-dir your_simclr_experiment --feature-save-dir ../miniImageNet/data
 ```
 
-To train 5-way 1/5/20/50 shot on miniImageNet
+To train 5-way 1/5/20/50-shot on miniImageNet
 ```bash
 cd miniImageNet
 python main.py --data-dir ./data --save-dir miniImageNet-5way-experiment
