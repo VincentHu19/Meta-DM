@@ -6,7 +6,7 @@
 * pytorch 1.7
 * tqdm
 
-## Data
+## Data Preparation
 Please follow our [data preparation on Prototypical Networks with Meta-DM](https://github.com/VincentHu19/Meta-DM/tree/main/Prototypical%20Networks%20with%20Meta-DM#data-preparation) to download miniImageNet and apply Meta-DM. Then copy `materials` to current dir. 
 
 
