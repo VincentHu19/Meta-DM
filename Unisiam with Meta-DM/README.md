@@ -56,4 +56,11 @@ python train.py --dataset miniImageNet --backbone resnet50 --lrd_step --data_pat
 ```
 
 
+## Testing 
+For testing, just add ```--eval_path``` to the command used for training. For example, to test with ResNet-50 backbone on mini-ImageNet: 
+```
+python train.py --dataset miniImageNet --backbone resnet50 --lrd_step --data_path [your mini-imagenet-folder] --save_path [your save-folder] --eval_path [your best-path]
+```
+
+
 For more details, please see the official implementaion of [UniSiam](https://github.com/bbbdylan/unisiam)
